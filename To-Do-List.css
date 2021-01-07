@@ -1,0 +1,90 @@
+* { padding: 0;
+    margin: 0;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
+.header{
+    height: 80px;
+    background-color: rgb(195,195,195);
+    text-align: center;
+    padding-top: 35px;
+    font-size: 25px;
+}
+
+.InstructionText{
+  /* 
+    height: 70px;
+  padding: 20px;
+  */
+  padding: 20px;
+  text-align: center;
+  border:5px;
+  background-color: rgb(113, 198, 255);
+  border-color: black;
+
+}
+
+#list{
+  margin: auto;
+  width: 50%;
+  border: 5px solid black;
+  padding: 10px;
+  background-color: ghostwhite;
+
+}
+.StyleButton{
+  width: 155px;
+  height: 25px;
+}
+
+.ListStyle{
+  margin: 50px;
+  font-weight: bold;
+}
+
+.TextBoxStyle{
+  width: 400px;
+}
+
+.pageBody{
+  height: 1000px;
+  background-image: url(C:\Users\HenryJ\Desktop\WebsitesHTML\Multi-Helper-Website\Images\BGNotePad.png);
+  background-repeat: repeat-y;
+  background-size:cover;
+  background-color: rgb(113, 198, 255);
+  image-rendering: pixelated;
+}
+
+.links{
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  border-color: black;
+}
+
+.links:hover{
+  background-color: #ddd;
+  color: black ;
+
+}
+nav{
+  background-color: rgb(149,149,149);
+  padding: 12px;
+  margin: 0px;
+
+}
+
+.navbar{
+  display:inline-block;
+  overflow: hidden;
+  justify-content: center;
+
+}
+
+.navbar :hover{
+  background-color: #ddd;
+  color: black ;
+
+}
