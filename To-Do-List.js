@@ -1,5 +1,3 @@
-
-
 function deleteListItem(){
 
     var list = document.getElementById("numList");
@@ -17,7 +15,6 @@ function deleteListItem(){
     //      Delete task
     list.removeChild(list.childNodes[0]);
 }
-
 
 function addNewTask(){
     //<p id="demo"> Dummy text </p>

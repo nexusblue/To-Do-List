@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>To-Do-List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="To-Do-List.css">
+    <script src='To-Do-List.js'></script>
+</head>
+<body>
+    
+    <div class="header">
+        <h1 >To Do List</h1>
+    </div>
+
+    <div class = "pageBody"  >
+
+        <div class = "InstructionText">
+                <!--
+                    <p class="InstructionSpacing">
+                    <b>How to use:</b>
+                    <br> Press the "Add a new task"  in order to make a new list of tasks. You can delete tasks.Keep 
+                    <br>track of tasks with by clicking on the "Completed?" check box. You can also edit the text 
+                    <br>fields to make better fit your task descriptions.</p>
+                -->
+            <button class="StyleButton" onclick="addNewTask()"> Add new task</button>
+            <button class="StyleButton" onclick="deleteListItem()"> Delete Top task</button>
+        </div>
+    
+        <div id="list">
+            <ol id="numList">
+                <li class="ListStyle">
+                    <b>Priority: </b> 
+                    <input class= "TextBoxStyle" placeholder="Enter your task here..." type="text"> 
+                    <label class="container">
+                        <b>Completed?</b>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+
+                </li>
+                <li class="ListStyle">
+                    <b>Priority: </b>
+                    <input class= "TextBoxStyle" placeholder="Enter your task here..." type="text"> 
+
+                    <label class="container">
+                        <b>Completed? </b>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+
+                </li>
+                <li class="ListStyle">
+                    <b>Priority:</b>
+                    <input class= "TextBoxStyle" placeholder="Enter your task here..." type="text"> 
+
+                    <label class="container">
+                        <b>Completed? </b>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li class="ListStyle">
+                    <b>Priority:</b>
+                    <input class= "TextBoxStyle" placeholder="Enter your task here..." type="text"> 
+
+                    <label class="container">
+                        <b>Completed? </b>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li class="ListStyle">
+                    <b>Priority:</b>
+                    <input class= "TextBoxStyle" placeholder="Enter your task here..." type="text"> 
+
+                    <label class="container">
+                        <b>Completed? </b>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ol>
+        </div>
+
+    </div> 
+
+</body>
+</html>
+
+
+
+
+
